@@ -1,23 +1,14 @@
-const hiddenDiv = document.querySelector('.hidden-share')
-const shareDivBtn = document.querySelector('.share-div')
+const active = document.getElementById('active')
+const shareBtn = document.getElementById('share-btn')
 
-const avatar = document.querySelector('.avatar')
-const shareBTN  = document.querySelector('.share-btn')
 
-const toggleSection = () =>{
-    hiddenDiv.classList.add('shown')
-    avatar.classList.add('hidden')
-}
+const shareBTN2  = document.getElementById('share-btn-2')
 
-const showAvatar = () =>{
-    hiddenDiv.classList.remove('shown')
-    avatar.classList.remove('hidden')
-}
 
-shareBTN.addEventListener('click', function() {
-    toggleSection()
+shareBtn.addEventListener('click', () => {
+    active.classList.toggle('active-state')
 })
 
-shareDivBtn.addEventListener('click', function() {
-    showAvatar()
+shareBTN2.addEventListener('click', () =>{
+    active.classList.toggle('active-state')
 })
