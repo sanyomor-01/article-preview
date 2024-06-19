@@ -1,14 +1,3 @@
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-- [Author](#author)
-
-
-
 ## Overview
 This a simple article preview component made with HTML, CSS and JavaScript. Users can view the optimal layout for the component depending on their device's screen. Also, social meadia share links can be seen when the share icon is clicked.
 
@@ -36,6 +25,6 @@ This a simple article preview component made with HTML, CSS and JavaScript. User
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sanyomor-01)
+- Frontend Mentor - [Mike](https://www.frontendmentor.io/profile/sanyomor-01)
 - Twitter - [@sanyo_mor](https://www.twitter.com/sanyo_mor)
 
