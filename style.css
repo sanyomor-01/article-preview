@@ -33,6 +33,7 @@
     border-radius: 1rem;
     width: 350px;
     height: fit-content;
+    box-shadow: 1px 5px -2px hsl(217, 19%, 35%);;
     
 }
 
@@ -80,6 +81,7 @@
 }
 .date{
     color: var(--Grayish-Blue);
+    font-weight: 500;
 }
 
 h2{
@@ -194,7 +196,7 @@ button{
         width:max-content;
         right: -5rem;
         display: flex;
-        box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.475);
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
     }
     #share-btn-2{
         display: none;
