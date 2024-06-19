@@ -46,7 +46,7 @@
 .container{
     display: grid;
     gap: 1.5rem;
-    padding-block-start: 1.7rem;
+    padding-block: 1.7rem;
     background-color: rgb(255, 255, 255);
     border-radius: 0 0 0.5rem 0.5rem ;
     position: relative;
@@ -71,7 +71,6 @@
     justify-content: start;
     align-items: center;
     padding-inline: 1.5rem;
-    padding-block: 1rem;
 }
 
 .profile >img{
