@@ -55,13 +55,13 @@
     padding-inline: 1.5rem;
     font-weight: 700;
     font-size: 1.1rem;
-    color: var(--Desaturated-dark-blue);
+    color: var(--Very-dark-grayish-blue);
     
 }
 
 .container >p{
     padding-inline:1.5rem ;
-    color: var(--Grayish-Blue);
+    color: var(--Desaturated-dark-blue);
 }
 
 .profile{
@@ -85,7 +85,7 @@
 }
 
 h2{
-    color: var(--Desaturated-dark-blue);
+    color: var(--Very-dark-grayish-blue);
     font-size: 12px;
     display: flex;
     flex-direction: column;
