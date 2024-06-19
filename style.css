@@ -70,8 +70,7 @@
     justify-content: start;
     align-items: center;
     padding-inline: 1.5rem;
-    padding-bottom: 1rem;
-    
+    padding-block: 1rem;
 }
 
 .profile >img{
@@ -125,13 +124,12 @@ button{
     bottom: 0;
     width: 350px;
 
-
 }
 .socials{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 16px;
 }
 .socials >p{
     color: var(--Grayish-Blue);
@@ -142,10 +140,12 @@ button{
     display: flex;
     gap: 20px;
 }
-
+.triangle{
+    display: none;
+}
 
 .active-state{
-    display: none;
+   display: none;
 }
   img, picture, video, canvas, svg {
     display: block;
@@ -187,7 +187,33 @@ button{
         object-position: left;
 
     }
+    .share{
+        padding: 1rem;
+        bottom: 5.5rem;
+        border-radius: 0.5rem;
+        width:max-content;
+        right: -5rem;
+        display: flex;
+        box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.475);
+    }
+    #share-btn-2{
+        display: none;
 
+    }
+    .triangle{
+        display: flex;
+        width: 0;
+        height: 0;
+        border-left: 0.8rem solid transparent;
+        border-right: 0.8rem solid transparent;
+        border-top: 0.8rem solid var(--Very-dark-grayish-blue);
+        position: absolute;
+        bottom: -0.8rem;
+        right: 6.3rem;
+    }
+    .active-state{
+        display: none;
+     }
 
 }
 
